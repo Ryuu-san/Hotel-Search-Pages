@@ -1,0 +1,147 @@
+.color-rendering {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 145px;
+    /* Dark 100% */
+    background: #04052c;
+    border-radius: 6px;
+}
+
+.color-rendering_dark-grey {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 235px;
+    /* Dark 75% */
+    background: #1f2041bf;
+    border-radius: 6px;
+}
+
+.color-rendering_gray {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 149.74px;
+    top: 324.56px;
+    /* Dark 50% */
+    background: #1f204180;
+    border-radius: 6px;
+}
+
+.color-rendering_light-gray {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 415px;
+    /* Dark 25% */
+    background: #1f204140;
+    border-radius: 6px;
+}
+
+.color-rendering_white {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 505px;
+    background: #1f20410d;
+    border-radius: 6px;
+}
+
+.color-rendering_purple {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 595px;
+    /* Primary Color */
+    background: #BC9CFF;
+    border-radius: 6px;
+}
+
+.color-rendering_green {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 685px;
+    /* Secondary Color */
+    background: #6FCF97;
+    border-radius: 6px;
+}
+
+.color-code_movement-dark100 {
+    position: absolute;
+    width: 159px;
+    height: 57px;
+    left: 260px;
+    top: 135px;
+}
+
+.color-code_movement-dark75 {
+    position: absolute;
+    width: 150px;
+    height: 57px;
+    left: 260px;
+    top: 225px;
+}
+
+.color-code_movement-dark50 {
+    position: absolute;
+    width: 151px;
+    height: 57px;
+    left: 260px;
+    top: 315px;
+}
+
+.color-code_movement-dark25 {
+    position: absolute;
+    width: 149px;
+    height: 57px;
+    left: 260px;
+    top: 405px;
+}
+
+.color-code_movement-dark5 {
+    position: absolute;
+    width: 139px;
+    height: 58px;
+    left: 260px;
+    top: 495px;
+}
+
+.color-code_movement-purple {
+    position: absolute;
+    width: 82px;
+    height: 58px;
+    left: 260px;
+    top: 585px;
+}
+
+.color-code_movement-green {
+    position: absolute;
+    width: 77px;
+    height: 57px;
+    left: 260px;
+    top: 675px;
+}
+
+.color-code__title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #1F2041;
+}
+
+.color-code__text {
+    display: flex;
+    align-items: center;
+}
