@@ -1,0 +1,57 @@
+.presentation-of-number__number-details {
+    padding-top: .625rem;
+    width: 14.625rem;
+}
+
+.presentation-of-number__number-details-container {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.presentation-of-number__number-details-container,
+.presentation-of-number__number-details-text {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.presentation-of-number__number-details-title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.presentation-of-number__number-details-text-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Primary Color */
+    color: #BC9CFF;
+}
+
+.presentation-of-number__number-details-text-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    color: #1f204180;
+}
+
+.presentation-of-number__separator {
+    margin: .375rem 0;
+    border: none;
+    background-color: rgba(31, 32, 65, .1);
+    width: 100%;
+    height: .0625rem;
+    color: rgba(31, 32, 65, .1);
+}

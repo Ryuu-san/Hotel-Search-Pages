@@ -10,8 +10,12 @@ body {
 }
 
 .block-Cards {
-    position: relative;
     width: 1440px;
     height: 1350px;
     background: #F4F4F6;
+    display: -webkit-box;
+}
+
+.block-Cards__container {
+    padding: 0 1.25rem;
 }

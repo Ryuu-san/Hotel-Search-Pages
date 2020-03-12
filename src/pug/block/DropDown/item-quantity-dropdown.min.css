@@ -236,7 +236,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 44px;
     left: 170px;
@@ -269,7 +269,7 @@ body {
     display: inline-block;
     height: 15px;
     width: 15px;
-    position: absolute;
+    /* position: absolute; */
     right: 20px;
     top: 15px;
     font-family: Material Icons;

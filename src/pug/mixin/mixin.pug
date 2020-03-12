@@ -5,4 +5,7 @@ mixin textBlock(ClassText, ValueText)
     h1(class=ClassText)= ValueText
 
 mixin button(classButton, valueButton)
-    button.main-button(classButton)= valueButton
+    button.main-button(class=classButton)= valueButton
+
+mixin formFill(typeInput, placeholderInput)
+    input.main-form(type=typeInput, placeholder=placeholderInput)

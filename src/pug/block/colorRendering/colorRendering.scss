@@ -1,9 +1,17 @@
-.color-rendering {
+.color-demonstration_location-adjustment {
     position: absolute;
+    width: 269.26px;
+    height: 610px;
+    left: 149.74px;
+    top: 145px;
+}
+
+.color-rendering {
+    // position: relative;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 145px;
+    // left: 15%;
+    // top: 145px;
     /* Dark 100% */
     background: #04052c;
     border-radius: 6px;
@@ -13,8 +21,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 235px;
+    // left: 150px;
+    top: 90px;
     /* Dark 75% */
     background: #1f2041bf;
     border-radius: 6px;
@@ -24,8 +32,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 149.74px;
-    top: 324.56px;
+    // left: 149.74px;
+    top: 180px;
     /* Dark 50% */
     background: #1f204180;
     border-radius: 6px;
@@ -35,8 +43,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 415px;
+    // left: 150px;
+    top: 270px;
     /* Dark 25% */
     background: #1f204140;
     border-radius: 6px;
@@ -46,8 +54,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 505px;
+    // left: 150px;
+    top: 360px;
     background: #1f20410d;
     border-radius: 6px;
 }
@@ -56,8 +64,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 595px;
+    // left: 150px;
+    top: 450px;
     /* Primary Color */
     background: #BC9CFF;
     border-radius: 6px;
@@ -67,8 +75,8 @@
     position: absolute;
     width: 70px;
     height: 70px;
-    left: 150px;
-    top: 685px;
+    // left: 150px;
+    top: 540px;
     /* Secondary Color */
     background: #6FCF97;
     border-radius: 6px;
@@ -78,56 +86,56 @@
     position: absolute;
     width: 159px;
     height: 57px;
-    left: 260px;
-    top: 135px;
+    left: 110px;
+    top: -10px;
 }
 
 .color-code_movement-dark75 {
     position: absolute;
     width: 150px;
     height: 57px;
-    left: 260px;
-    top: 225px;
+    left: 110px;
+    top: 80px;
 }
 
 .color-code_movement-dark50 {
     position: absolute;
     width: 151px;
     height: 57px;
-    left: 260px;
-    top: 315px;
+    left: 110px;
+    top: 170px;
 }
 
 .color-code_movement-dark25 {
     position: absolute;
     width: 149px;
     height: 57px;
-    left: 260px;
-    top: 405px;
+    left: 110px;
+    top: 260px;
 }
 
 .color-code_movement-dark5 {
     position: absolute;
     width: 139px;
     height: 58px;
-    left: 260px;
-    top: 495px;
+    left: 110px;
+    top: 350px;
 }
 
 .color-code_movement-purple {
     position: absolute;
     width: 82px;
     height: 58px;
-    left: 260px;
-    top: 585px;
+    left: 110px;
+    top: 440px;
 }
 
 .color-code_movement-green {
     position: absolute;
     width: 77px;
     height: 57px;
-    left: 260px;
-    top: 675px;
+    left: 110px;
+    top: 530px;
 }
 
 .color-code__title {

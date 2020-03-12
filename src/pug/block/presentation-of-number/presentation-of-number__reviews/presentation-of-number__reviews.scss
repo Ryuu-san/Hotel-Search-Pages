@@ -1,0 +1,27 @@
+.presentation-of-number__reviews {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .9375rem;
+    width: 14.625rem;
+}
+
+.rate-button {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.presentation-of-number__comments {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    text-align: right;
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
+    margin: 0;
+    line-height: 1.5rem;
+}
