@@ -1,0 +1,32 @@
+.footer-navigation__newsletter {
+    width: 220px;
+    height: 84px;
+}
+
+.footer-navigation__newsletter-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1f2041;
+}
+
+.footer-navigation__newsletter-title,
+.footer-navigation__newsletter-text {
+    padding-bottom: 20px;
+}
+
+.footer-navigation__newsletter-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    /* Dark 75% */
+    color: #1f2041bf;
+}

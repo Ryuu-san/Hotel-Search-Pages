@@ -1,0 +1,30 @@
+.header-user__navigation {
+    display: flex;
+    height: 21px;
+    align-items: center;
+}
+
+.header-user__navigation-title {
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 50% */
+    color: #1f204180;
+}
+
+.header-user__navigation-title_active {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 75% */
+    color: #1f2041bf;
+}
+
+.user-profile__title {
+    padding-left: 60px;
+}

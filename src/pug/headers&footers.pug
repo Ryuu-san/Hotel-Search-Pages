@@ -1,0 +1,13 @@
+extends layout/main
+include ./mixin/mixin
+
+block variables
+    - var title = 'Headers & Footers'
+
+block content
+    .block-headers-footers
+        include ./block/header-visitor/header-visitor
+        include ./block/header-user/header-user
+        include ./block/footer-navigation/footer-navigation
+        include ./block/footer-creative/footer-creative
+        

@@ -1,0 +1,30 @@
+.footer-navigation__navigation-department {
+    margin: 0;
+}
+
+.footer-navigation__navigation-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1f2041;
+}
+
+.footer-navigation__navigation-title,
+.footer-navigation__navigation-text {
+    padding-bottom: 20px;
+}
+
+.footer-navigation__navigation-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* Dark 50% */
+    color: #1f204180;
+}

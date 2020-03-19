@@ -1,0 +1,14 @@
+extends layout/main
+include ./mixin/mixin
+
+block variables
+    - var title = 'Colors & Type'
+
+block content
+    .block-colorsType
+        include ./block/colorRendering/colorRendering
+        include ./mixin/mixin-titleBlock-textBlock/mixin-titleBLock/mixin-titleBlock
+        include ./mixin/mixin-titleBlock-textBlock/mixin-textBlock/mixin-textBlock
+
+
+       
