@@ -1,0 +1,36 @@
+.container-form__form-default-header {
+    width: 83px;
+    height: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Dark 100% */
+    color: #1F2041;
+}
+
+.container-form__default {
+    width: 320px;
+    height: 44px;
+    padding: 0 0 0 .9375rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1f2041bf;
+}
+
+.container-form__default:hover,
+.container-form__default:active {
+    border: 1px solid #1f204180;
+    color: #1f2041f2;
+}

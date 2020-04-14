@@ -1,0 +1,35 @@
+extends layout/main
+include ./mixin/mixin
+
+block variables
+    - var title = 'Form Elements'
+
+block content
+    .block-form-elements
+        .form-elements
+            .form-elements__container
+                include ./block/container-form/container-form
+                include ./block/container-dropdown/container-dropdown
+            .form-elements__container
+                include ./block/container-checkbox-buttons/container-checkbox-buttons
+            .form-elements__container
+                include ./block/container-buttons-and-more/container-buttons-and-more
+        .form-elements
+            .form-elements__container
+                include ./block/container-hidden-open/container-hidden-open
+            .form-elements__container
+                include ./block/container-apply-button/container-apply-button
+            .form-elements__container
+                include ./block/container-apply-clear-button/container-apply-clear-button
+        .form-elements
+            .form-elements__container
+                include ./block/expandable-checkbox-list/expandable-checkbox-list
+            .form-elements__container
+                include ./block/rich-checkbox-buttons/rich-checkbox-buttons
+            .form-elements__container
+                include ./block/bullet-list/bullet-list
+        .form-elements
+            .form-elements__container
+                include ./block/good-side-icon/good-side-icon
+            .form-elements__container
+                include ./block/user-comment/user-comment

@@ -1,0 +1,173 @@
+.container-checkbox-buttons__amenities-list {
+    padding-bottom: 40px;
+}
+
+.container-checkbox-buttons__amenities-title {
+    width: 160px;
+    height: 15px;
+    left: 340px;
+    top: 270px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1f2041;
+}
+
+.container-checkbox-buttons__checkbox-text {
+    width: 175px;
+    padding-left: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    /* Dark 50% */
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.container-checkbox-buttons__checkbox {
+    padding-bottom: 10px;
+}
+
+@supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type='checkbox'],
+    input[type='radio'] {
+        --active: white;
+        --active-inner: linear-gradient(180deg, #bc9cff, #8ba4f9);
+        --focus: 1px #c3a9fb;
+        --border: #1f204140;
+        --border-hover: #1f204140;
+        --background: #fff;
+        --disabled: #F6F8FF;
+        --disabled-inner: #E1E6F9;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        height: 21px;
+        outline: none;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin: 0;
+        cursor: pointer;
+        border: 1px solid #1f204140;
+        background: var(--b, var(--background));
+        transition: background .3s, border-color .3s, box-shadow .2s;
+        &:after {
+            content: '';
+            display: block;
+            left: -3px;
+            top: -3px;
+            position: absolute;
+            transition: transform var(--d-t, .3s) var(--d-t-e, ease), opacity var(--d-o, .2s);
+        }
+        &:checked {
+            --b: var(--active);
+            --bc: var(--active);
+            --d-o: .3s;
+            --d-t: .6s;
+            --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+        }
+        &:disabled {
+            --b: var(--disabled);
+            cursor: not-allowed;
+            opacity: .9;
+            &:checked {
+                --b: var(--disabled-inner);
+                --bc: var(--border);
+            }
+            &+label {
+                cursor: not-allowed;
+            }
+        }
+        &:hover {
+            &:not(:checked) {
+                &:not(:disabled) {
+                    --bc: var(--border-hover);
+                }
+            }
+        }
+        &:focus {
+            box-shadow: 0 0 0 var(--focus);
+        }
+        &:not(.switch) {
+            width: 21px;
+            &:after {
+                opacity: var(--o, 0);
+            }
+            &:checked {
+                --o: 1;
+            }
+        }
+        &+label {
+            font-size: 14px;
+            line-height: 21px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+    }
+    input[type='checkbox'] {
+        &:not(.switch) {
+            border-radius: 7px;
+            &:after {
+                width: 5px;
+                height: 9px;
+                border: 1px solid #5e79d3;
+                border-top: 0;
+                border-left: 0;
+                left: 7px;
+                top: 4px;
+                transform: rotate(var(--r, 20deg));
+            }
+            &:checked {
+                --r: 43deg;
+                border: 1px solid #BC9CFF;
+            }
+        }
+        &.switch {
+            width: 38px;
+            border-radius: 11px;
+            &:after {
+                left: 3px;
+                top: 3px;
+                border-radius: 50%;
+                width: 12px;
+                height: 12px;
+                background: var(--ab, var(--border));
+                transform: translateX(var(--x, 0));
+            }
+            &:checked {
+                --ab: var(--active-inner);
+                --x: 17px;
+                border: 1px solid #BC9CFF;
+            }
+            &:disabled {
+                &:not(:checked) {
+                    &:after {
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+    }
+    input[type='radio'] {
+        border-radius: 50%;
+        &:after {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: linear-gradient(180deg, #bc9cff, #8ba4f9);
+            opacity: 0;
+            transform: scale(var(--s, .7));
+        }
+        &:checked {
+            --s: .5;
+            border: 1px solid #BC9CFF;
+        }
+    }
+}

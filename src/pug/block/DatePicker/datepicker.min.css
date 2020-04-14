@@ -100,7 +100,7 @@
 .datepicker--cell.-range-from-::before {
     content: '';
     z-index: -1;
-    width: 35px;
+    width: 39px;
     height: 32px;
     position: absolute;
     border-radius: 0;
@@ -112,7 +112,7 @@
 .datepicker--cell.-range-to-::before {
     content: '';
     z-index: -1;
-    width: 35px;
+    width: 39px;
     height: 32px;
     position: absolute;
     border-radius: 0;

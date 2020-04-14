@@ -1,0 +1,11 @@
+.rich-checkbox-buttons
+    +textBlock('rich-checkbox-buttons__header', 'Rich Checkbox Buttons')
+    .container-rich-checkbox-buttons
+        input(type="checkbox" name="c1" id="ch1")
+        label(for="ch1" class="rich-checkbox-buttons__checkbox-text") Широкий коридор
+        +textBlock('rich-checkbox-buttons__text', 'Ширина коридоров в номере не менее 91 см.')
+    .container-rich-checkbox-buttons
+        input(type="checkbox" name="c1" id="ch2")
+        label(for="ch2" class="rich-checkbox-buttons__checkbox-text") Помощник для инвалидов
+        +textBlock('rich-checkbox-buttons__text rich-checkbox-buttons__text_width', 'На 1 этаже вас встретит специалист и проводит до номера.')
+

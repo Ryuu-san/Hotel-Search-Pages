@@ -1,0 +1,29 @@
+.container-checkbox-buttons__gender-selection {
+    padding-bottom: 40px;
+}
+
+.container-checkbox-buttons__gender-selection-title {
+    width: 160px;
+    height: 15px;
+    left: 340px;
+    top: 270px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1f2041;
+}
+
+.container-checkbox-buttons__radio {
+    display: flex;
+}
+
+.container-checkbox-buttons__radio-text {
+    padding-left: 5px;
+}
+
+.container-checkbox-buttons__radio-female {
+    padding-left: 20px;
+}
