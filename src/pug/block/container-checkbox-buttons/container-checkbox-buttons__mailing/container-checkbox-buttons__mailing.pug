@@ -1,9 +1,5 @@
 .container-checkbox-buttons__mailing
-    +textBlock('container-checkbox-buttons__mailing-title', 'Toggle')
+    +second-level-heading('container-checkbox-buttons__mailing-title', 'Toggle')
     .container-checkbox-buttons__mailing-act-def
-        .container-checkbox-buttons__mailing-activ
-            input(type="checkbox" name="s1" id="s1" class="switch" checked)
-            label(for="s1" class="container-checkbox-buttons__checkbox-text") Получать спецпредложения
-        .container-checkbox-buttons__mailing-default
-            input(type="checkbox" name="s1" id="s2" class="switch")
-            label(for="s2" class="container-checkbox-buttons__checkbox-text") Получать спецпредложения
+        include ./container-checkbox-buttons__mailing-activ/container-checkbox-buttons__mailing-activ
+        include ./container-checkbox-buttons__mailing-default/container-checkbox-buttons__mailing-default

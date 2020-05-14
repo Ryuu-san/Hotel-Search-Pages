@@ -1,26 +1,33 @@
 .container-creative__logo-text {
     width: 560px;
     height: 48px;
+    line-height: 44px;
     text-align: center;
 }
 
 .container-creative__logo {
     padding-bottom: 15px;
     padding-left: 20px;
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 17px;
-    color: #1f2041bf;
+}
+
+.container-creative__image {
+    padding-right: 22px;
+}
+
+.container-creative__image:nth-child(3) {
+    padding-left: 18px;
 }
 
 .container-creative__text {
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    padding-bottom: 23px;
     /* or 171% */
     /* Dark 75% */
     color: #1f2041bf;

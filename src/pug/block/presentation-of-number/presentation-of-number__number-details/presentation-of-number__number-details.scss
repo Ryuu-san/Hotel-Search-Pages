@@ -1,5 +1,5 @@
 .presentation-of-number__number-details {
-    padding-top: .625rem;
+    padding: 20px 0 3px;
     width: 14.625rem;
 }
 
@@ -15,36 +15,45 @@
     flex-wrap: nowrap;
 }
 
-.presentation-of-number__number-details-title {
-    font-family: Quicksand;
+.presentation-of-number__price-digits {
+    font-family: Montserrat-Bold;
+    font-size: .875rem;
+    font-weight: 700;
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+}
+
+.presentation-of-number__number-details-title {
     line-height: 17px;
-    /* Dark 100% */
-    color: #1F2041;
+    font-size: 1.1875rem;
+    font-family: Montserrat-Bold;
+    font-size: 1.075rem;
+    padding: 4px 5px 0 0px;
+}
+
+.presentation-of-number__prefix {
+    font-size: .875rem;
+    font-style: normal;
 }
 
 .presentation-of-number__number-details-text-title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Primary Color */
     color: #BC9CFF;
 }
 
-.presentation-of-number__number-details-text-price {
-    font-family: Montserrat;
+.presentation-of-number__number-details-price {
+    font-family: Montserrat-Regular;
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-size: .75rem;
     line-height: 18px;
-    /* or 129% */
+    color: rgba(31, 32, 65, .5);
+}
+
+.presentation-of-number__number-details-text-price {
     color: #1f204180;
+    font-size: 13px;
 }
 
 .presentation-of-number__separator {

@@ -1,32 +1,38 @@
 .footer-navigation__newsletter {
     width: 220px;
     height: 84px;
+    margin-right: 56px;
+}
+
+.footer-navigation__newsletter .main-form {
+    width: 255px;
 }
 
 .footer-navigation__newsletter-title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Dark 100% */
-    color: #1f2041;
+    font-family: Montserrat-Regular;
 }
 
 .footer-navigation__newsletter-title,
 .footer-navigation__newsletter-text {
-    padding-bottom: 20px;
+    padding-bottom: 11px;
 }
 
 .footer-navigation__newsletter-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    /* Dark 75% */
+    line-height: 26px;
+    padding-bottom: 21px;
     color: #1f2041bf;
+}
+
+.footer-navigation__container-form {
+    position: relative;
+}
+
+.email-marker {
+    position: absolute;
+    top: .625rem;
+    right: -1.5rem;
+    background: linear-gradient(180deg, #bc9cff, #8ba4f9);
+    color: transparent;
+    -webkit-background-clip: text;
 }

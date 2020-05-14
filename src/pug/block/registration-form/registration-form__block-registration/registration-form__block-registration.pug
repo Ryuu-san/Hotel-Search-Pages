@@ -3,6 +3,6 @@
         +formFill('text', 'Имя', '')
     .registration-form__block-section
         +formFill('text', 'Фамилия', '')
-    //- .registration-form__gender-selection
-    //-     +formFill('checkbox', '', 'Мужской')
-    //-     +formFill('checkbox', '', 'Женский')
+    .container-checkbox-buttons__radio
+        include ../../../block/container-checkbox-buttons/container-checkbox-buttons__gender-selection/container-checkbox-buttons__radio-male/container-checkbox-buttons__radio-male
+        include ../../../block/container-checkbox-buttons/container-checkbox-buttons__gender-selection/container-checkbox-buttons__radio-female/container-checkbox-buttons__radio-female

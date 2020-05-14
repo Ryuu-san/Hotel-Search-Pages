@@ -1,43 +1,35 @@
 .rich-checkbox-buttons__header {
-    width: 165px;
+    width: 185px;
     height: 15px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
     line-height: 15px;
-    text-transform: uppercase;
     color: #1f2041;
+    margin-bottom: 15px;
 }
 
 .container-rich-checkbox-buttons {
-    padding-bottom: 12px;
+    padding-bottom: 9px;
 }
 
-.rich-checkbox-buttons__checkbox-text {
-    width: 175px;
+input[type=checkbox]+label,
+input[type=radio]+label .rich-checkbox-buttons__checkbox-text {
+    width: 225px;
     padding-left: 5px;
-    font-family: Montserrat;
+    padding-top: 3px;
+    font-family: Montserrat-Regular;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
     line-height: 18px;
-    /* identical to box height, or 129% */
-    /* Dark 50% */
-    color: rgba(31, 32, 65, 0.5);
+    color: #1f2041bf;
 }
 
 .rich-checkbox-buttons__text {
-    width: 195px;
+    width: 233px;
+    padding-top: 4px;
     padding-left: 30px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    /* or 117% */
 }
 
 .rich-checkbox-buttons__text_width {
-    width: 225px;
+    width: 253px;
 }

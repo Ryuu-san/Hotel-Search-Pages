@@ -1,11 +1,11 @@
 .expandable-checkbox-list__hidden
-    +textBlock('expandable-checkbox-list__hidden-header', 'Expandable checkbox list')
+    +second-level-heading('expandable-checkbox-list__hidden-header', 'Expandable checkbox list')
     .container-amenities-list
         .container-amenities-list__item
             input(type="checkbox" name="c1" id="a1")
             label(for="a1" class="container-amenities-list__item__checkbox-text") Завтрак
         .container-amenities-list__item
-            input(type="checkbox" name="c1" id="a2")
+            input(type="checkbox" name="c1" id="a2" checked)
             label(for="a2"  class="container-amenities-list__item__checkbox-text") Письменный стол
         .container-amenities-list__item
             input(type="checkbox" name="c1" id="a3" checked)
@@ -25,3 +25,4 @@
         .container-amenities-list__item
             input(type="checkbox" name="c1" id="a8")
             label(for="a8"  class="container-amenities-list__item__checkbox-text") Шампунь
+    span.datepicker__market expand_more

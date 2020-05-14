@@ -12,7 +12,6 @@ html *::before {
 }
 
 body {
-    margin: 0;
     position: inherit
 }
 
@@ -263,19 +262,19 @@ body {
     box-sizing: border-box;
     border-radius: 4px;
     outline: none;
-    color: rgba(31, 32, 65, .75);
 }
 
 .iqdropdown .iqdropdown-selection {
     color: #4A4A4A;
-    font-family: "OpenSans", sans-serif;
-    font-size: 17px;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
     font-weight: 400;
     flex: 1;
     position: relative
 }
 
-.iqdropdown .iqdropdown-selection::after {
+
+/* .iqdropdown .iqdropdown-selection::after {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAMCAMAAABGBS09AAAAeFBMVEVMaXGVlZWRkZGRkZH///+UlJSRkZGQkJCRkZGZmZmRkZGRkZGSkpKRkZGVlZWQkJCdnZ2QkJCVlZWUlJSQkJCXl5eRkZGSkpKRkZGSkpKRkZGRkZGRkZGRkZGQkJCQkJCRkZGSkpKQkJCRkZGTk5OSkpKRkZGQkJAWlBl2AAAAJ3RSTlMAHcnXATdy+f4FzLJg5ySKDYgMJuYbSm61XtmUmcc1qkiq9fVHWVidqGmEAAAAhUlEQVR42o2O5w7CYAhF6e7XvfdwtN73f0OhatLUxnj+wMklAP2mHGpFX6h6KLn0QFcds6oDeq6rC6DJ91HeAHAf0k4jACdOPlESOwDG6WVmW7CFgblJELIULcubLJVh3SKydFmTZrQn8uXMdZYH/IiOXAxsGAudoOwbcLcVnaN5nkb/8gRapQtVGGewNQAAAABJRU5ErkJggg==);
     background-position: center;
     background-repeat: no-repeat;
@@ -287,7 +286,7 @@ body {
     position: absolute;
     right: 0;
     top: 40%
-}
+} */
 
 .iqdropdown.menu-open {
     border: 1px solid rgba(31, 32, 65, .5);

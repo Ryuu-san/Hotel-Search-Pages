@@ -1,141 +1,106 @@
 .color-demonstration_location-adjustment {
-    position: absolute;
+    // position: absolute;
     width: 269.26px;
     height: 610px;
-    left: 149.74px;
-    top: 145px;
+}
+
+.element-column__color-wrap {
+    padding-bottom: 20px;
+}
+
+.element-column__block-color {
+    position: relative;
+    padding-top: 7px;
+    padding-left: 96px;
+    height: 70px;
+    color: #1f2041;
 }
 
 .color-rendering {
-    // position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 70px;
     height: 70px;
-    // left: 15%;
-    // top: 145px;
-    /* Dark 100% */
     background: #04052c;
     border-radius: 6px;
 }
 
 .color-rendering_dark-grey {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 150px;
-    top: 90px;
-    /* Dark 75% */
     background: #1f2041bf;
     border-radius: 6px;
 }
 
 .color-rendering_gray {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 149.74px;
-    top: 180px;
-    /* Dark 50% */
     background: #1f204180;
     border-radius: 6px;
 }
 
 .color-rendering_light-gray {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 150px;
-    top: 270px;
-    /* Dark 25% */
     background: #1f204140;
     border-radius: 6px;
 }
 
 .color-rendering_white {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 150px;
-    top: 360px;
     background: #1f20410d;
     border-radius: 6px;
 }
 
 .color-rendering_purple {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 150px;
-    top: 450px;
-    /* Primary Color */
     background: #BC9CFF;
     border-radius: 6px;
 }
 
 .color-rendering_green {
-    position: absolute;
     width: 70px;
     height: 70px;
-    // left: 150px;
-    top: 540px;
-    /* Secondary Color */
     background: #6FCF97;
     border-radius: 6px;
 }
 
 .color-code_movement-dark100 {
-    position: absolute;
     width: 159px;
     height: 57px;
-    left: 110px;
-    top: -10px;
 }
 
 .color-code_movement-dark75 {
-    position: absolute;
     width: 150px;
     height: 57px;
-    left: 110px;
-    top: 80px;
 }
 
 .color-code_movement-dark50 {
-    position: absolute;
     width: 151px;
     height: 57px;
-    left: 110px;
-    top: 170px;
 }
 
 .color-code_movement-dark25 {
-    position: absolute;
     width: 149px;
     height: 57px;
-    left: 110px;
-    top: 260px;
 }
 
 .color-code_movement-dark5 {
-    position: absolute;
     width: 139px;
     height: 58px;
-    left: 110px;
-    top: 350px;
 }
 
 .color-code_movement-purple {
-    position: absolute;
     width: 82px;
     height: 58px;
-    left: 110px;
-    top: 440px;
 }
 
 .color-code_movement-green {
-    position: absolute;
     width: 77px;
     height: 57px;
-    left: 110px;
-    top: 530px;
 }
 
 .color-code__title {
@@ -143,6 +108,8 @@
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
+    padding-bottom: 3px;
+    padding-left: 12px;
     line-height: 29px;
     display: flex;
     align-items: center;
@@ -151,5 +118,11 @@
 
 .color-code__text {
     display: flex;
+    font-size: 19px;
+    padding-left: 17px;
     align-items: center;
+}
+
+.color-code__text:nth-child(5) {
+    padding-left: 47px;
 }

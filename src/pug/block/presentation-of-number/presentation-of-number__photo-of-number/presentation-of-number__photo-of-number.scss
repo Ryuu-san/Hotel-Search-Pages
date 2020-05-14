@@ -1,4 +1,22 @@
 .presentation-of-number__photo-of-number {
     width: 270px;
     height: 151.38px;
+    position: relative;
+}
+
+input[type=radio]:not(.switch).presentation-of-number__input {
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+    border: 1px solid white;
+    --background: none;
+    --focus: none;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.presentation-of-number__select-label {
+    position: absolute;
+    bottom: .3275rem;
+    right: .875rem;
 }

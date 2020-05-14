@@ -1,16 +1,10 @@
+.container-dropdown__exit-form {
+    position: relative;
+}
+
 .container-dropdown__exit-header {
-    // position: absolute;
     width: 130px;
     height: 15px;
-    left: 340px;
-    top: 270px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Dark 100% */
     color: #1F2041;
 }

@@ -4,9 +4,13 @@
     flex-wrap: nowrap;
     align-items: baseline;
     justify-content: space-between;
-    padding-bottom: 14px;
+    padding-bottom: 16px;
     width: 320px;
     line-height: 20px;
+}
+
+.form-of-payment__final-price {
+    padding: 13px 0 21px;
 }
 
 .form-of-payment__payment-account {
@@ -15,42 +19,19 @@
 }
 
 .form-of-payment__payment-title {
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: bold;
     font-size: 19px;
     line-height: 24px;
-    /* identical to box height */
-    /* Dark 100% */
-    color: #1F2041;
 }
 
 .form-of-payment__payment-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */
-    /* Dark 75% */
-    color: rgba(31, 32, 65, 0.75);
-}
-
-.form-of-payment__payment-price {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */
-    /* Dark 75% */
-    color: rgba(31, 32, 65, 0.75);
+    max-width: 214px;
 }
 
 .form-of-payment__payment-info {
     box-sizing: border-box;
     display: inline-block;
     position: absolute;
+    font-family: none;
     left: 219px;
     border: 1px solid rgba(31, 32, 65, .25);
     border-radius: 50%;
@@ -60,4 +41,9 @@
     color: rgba(31, 32, 65, .25);
     font-size: 12px;
     font-weight: 700;
+}
+
+.form-of-payment__payment-price {
+    padding-top: 0.3px;
+    padding-right: 4px;
 }

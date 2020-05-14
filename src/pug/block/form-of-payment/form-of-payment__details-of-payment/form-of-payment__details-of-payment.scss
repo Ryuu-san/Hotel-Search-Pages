@@ -12,36 +12,45 @@
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
+    padding-right: 1px;
+    padding-top: 0.5px;
+}
+
+.form-of-payment__prefix {
+    font-size: .875rem;
+    font-style: normal;
+    font-family: Montserrat-Bold;
 }
 
 .form-of-payment__details-of-payment-title {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    padding-right: .3125rem;
+    font-size: 24px;
     line-height: 17px;
-    /* Dark 100% */
     color: #1F2041;
 }
 
 .form-of-payment__details-of-payment-text-title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Primary Color */
     color: #BC9CFF;
 }
 
 .form-of-payment__details-of-payment-text-price {
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    font-size: .75rem;
     line-height: 18px;
-    /* or 129% */
     color: #1f204180;
+}
+
+.form-of-payment__price-digits {
+    font-size: .875rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Montserrat-Bold;
+    padding-right: 5px;
 }

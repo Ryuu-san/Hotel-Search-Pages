@@ -1,51 +1,40 @@
 .main-button {
-    // position: absolute;
     width: 320px;
     height: 44px;
-    left: 170px;
-    top: 450px;
     border: none;
-    /* Primary Gradient */
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
     border-radius: 22px;
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     outline: none;
-    line-height: 15px;
-    /* identical to box height */
+    line-height: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.main-button::after {
+.main-button_arrow {
+    position: relative;
+}
+
+.main-button_arrow::after {
     position: absolute;
-    left: 18rem;
-    top: 77rem;
-    width: 44px;
-    height: 44px;
-    font-family: Material Icons;
+    top: .625rem;
+    right: .625rem;
+    width: auto;
+    height: auto;
+    font-family: Material-Icons;
     font-style: normal;
     font-weight: normal;
+    text-transform: none;
     font-size: 24px;
     line-height: 24px;
     // display: flex;
     // align-items: center;
     text-align: center;
     color: white;
-    content: '\2794';
+    content: "arrow_forward";
 }
-
-// .test-button{
-//     position: absolute;
-//     width: 420px;
-//     height: 34px;
-//     left: 170px;
-//     top: 450px;
-//     /* Primary Gradient */
-//     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-//     border-radius: 22px;
-// }

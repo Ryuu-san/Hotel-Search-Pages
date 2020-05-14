@@ -8,11 +8,11 @@
 }
 
 .datepicker--cell {
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 40px;
     text-align: center;
     color: rgba(31, 32, 65, 0.5);
     border-radius: 4px;
@@ -100,8 +100,8 @@
 .datepicker--cell.-range-from-::before {
     content: '';
     z-index: -1;
-    width: 39px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     border-radius: 0;
     border-top-left-radius: 50%;
@@ -112,8 +112,8 @@
 .datepicker--cell.-range-to-::before {
     content: '';
     z-index: -1;
-    width: 39px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     border-radius: 0;
     border-top-right-radius: 50%;
@@ -156,11 +156,11 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 8px 0 3px
+    margin: 13px 0 11.5px
 }
 
 .datepicker--day-name {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -181,8 +181,6 @@
     -ms-flex: 1;
     flex: 1;
     text-align: center;
-    text-transform: uppercase;
-    font-size: .8em
 }
 
 .-only-timepicker- .datepicker--content,
@@ -192,7 +190,8 @@
 }
 
 .datepicker--cell-day {
-    width: 14.28571%
+    width: 40px;
+    height: 40px;
 }
 
 .datepicker--cells-months {
@@ -229,14 +228,15 @@
 .datepicker {
     background: #fff;
     border-radius: 4px;
-    border: 1px solid rgba(31, 32, 65, 0.25);
+    border: 1px solid rgba(31, 32, 65, .25);
     box-sizing: border-box;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, .05);
     font-family: Tahoma, sans-serif;
     font-size: 14px;
     color: #4a4a4a;
     width: 320px;
     height: 340px;
+    padding: 20px 0 20px;
     position: absolute;
     left: -100000px;
     opacity: 0;
@@ -268,6 +268,7 @@
 
 .datepicker.active {
     opacity: 1;
+    height: auto;
     -webkit-transform: translate(0);
     transform: translate(0);
     transition: opacity .3s ease, left 0s 0s, -webkit-transform .3s ease;
@@ -276,9 +277,9 @@
 }
 
 .datepicker-inline .datepicker {
-    border-color: #d7d7d7;
     box-shadow: none;
     position: static;
+    height: auto;
     left: auto;
     right: auto;
     opacity: 1;
@@ -289,7 +290,7 @@
 
 .datepicker--content {
     margin: 0 auto;
-    padding: 4px;
+    /* padding: 4px; */
     width: 280px;
 }
 
@@ -378,11 +379,13 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 280px;
+    margin: 0 auto;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
     min-height: 32px;
-    padding: 4px
+    padding-bottom: 30px
 }
 
 .-only-timepicker- .datepicker--nav {
@@ -404,7 +407,7 @@
 }
 
 .datepicker--nav-action {
-    width: 32px;
+    color: #bc9cff;
     border-radius: 4px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -421,21 +424,6 @@
     height: 32px;
 }
 
-.datepicker--nav-action-next::after {
-    width: 44px;
-    height: 44px;
-    font-family: Material Icons;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    content: '\2794';
-    color: #BC9CFF;
-}
-
 .datepicker--nav-action path {
     fill: none;
     stroke: #9c9c9c;
@@ -450,7 +438,7 @@
 .datepicker--buttons,
 .datepicker--time {
     /* border-top: 1px solid #efefef; */
-    padding: 4px
+    padding: 20px 0 0;
 }
 
 .datepicker--nav-title i {
@@ -467,68 +455,45 @@
 .datepicker--buttons {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    width: 280px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
-
-/* .dateTest {
-    position: absolute;
-    left: 500px;
-} */
-
-.datepicker--button {
-    width: 72px;
-    height: 15px;
-    font-family: Montserrat;
+.datepicker--button,
+.datepicker--button-apply {
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
     text-transform: uppercase;
-    color: #1f204180;
     cursor: pointer;
     border-radius: 4px;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.datepicker--button {
+    width: 72px;
+    height: 15px;
+    color: #1f204180;
+    justify-content: space-between;
 }
 
 .datepicker--button-apply {
     width: 84px;
     height: 15px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Primary Color */
     color: #BC9CFF;
-    cursor: pointer;
-    border-radius: 4px;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .datepicker--button:hover {

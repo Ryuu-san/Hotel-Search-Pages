@@ -1,8 +1,8 @@
 .presentation-of-number__number-details
     .presentation-of-number__number-details-container
         .presentation-of-number__number-details-text
-            +titleBlock('presentation-of-number__number-details-title', '№ 888')
-            +textBlock('presentation-of-number__number-details-text-title', 'люкс')
+            h1.default-first-level-heading.presentation-of-number__number-details-title #[em(class="presentation-of-number__prefix") №] 888
+            +second-level-heading('presentation-of-number__number-details-text-title', 'люкс')
         .presentation-of-number__number-details-price
-            +textBlock('presentation-of-number__number-details-text-price', '9999р в сутки')
+             p.default-entire-text.presentation-of-number__number-details-text-price #[em(class="presentation-of-number__price-digits") 9 999₽] в сутки
 hr.presentation-of-number__separator

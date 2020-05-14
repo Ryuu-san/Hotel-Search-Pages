@@ -1,3 +1,10 @@
 .form-login__registration-form {
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 320px;
+}
+
+.registration-form__login-title {
+    max-width: 200px;
 }

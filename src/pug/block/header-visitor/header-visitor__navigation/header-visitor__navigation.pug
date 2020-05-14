@@ -1,10 +1,10 @@
 .header-visitor__navigation
-    +textBlock('header-visitor__navigation-title header-visitor__navigation-title_active', 'Home')
-    +textBlock('header-visitor__navigation-title', 'About Us')
-    +textBlock('header-visitor__navigation-title', 'Services')
-    +textBlock('header-visitor__navigation-title', 'Careers')
-    +textBlock('header-visitor__navigation-title', 'News')
-    +textBlock('header-visitor__navigation-title', 'Documentation')
+    +entire-text('header-visitor__navigation-title header-visitor__navigation-title_active', 'Home')
+    +entire-text('header-visitor__navigation-title', 'About Us')
+    p.default-entire-text.header-visitor__navigation-title #[span(class ='datepicker__market') expand_more] Services
+    +entire-text('header-visitor__navigation-title', 'Careers')
+    +entire-text('header-visitor__navigation-title', 'News')
+    +entire-text('header-visitor__navigation-title', 'Documentation')
     .button-container
         +button('visitor-button-login', 'Login')
     .button-container.button-container-test

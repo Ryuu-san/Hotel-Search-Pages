@@ -6,25 +6,46 @@
 
 .header-user__navigation-title {
     padding-left: 30px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 17px;
-    /* Dark 50% */
     color: #1f204180;
 }
 
+.header-user__navigation-title:nth-child(2) {
+    padding-left: 30px;
+}
+
+.header-user__navigation-title:nth-child(3) {
+    padding-left: 27px;
+    position: relative;
+}
+
+.header-user__navigation-title:nth-child(3) .datepicker__market {
+    top: 0px;
+    right: -23.5px;
+}
+
+.header-user__navigation-title:nth-child(4) {
+    padding-left: 44px;
+}
+
+.header-user__navigation-title:nth-child(5) {
+    padding-left: 29px;
+}
+
+.header-user__navigation-title:nth-child(6) {
+    padding-left: 30px;
+}
+
 .header-user__navigation-title_active {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    /* Dark 75% */
     color: #1f2041bf;
 }
 
 .user-profile__title {
-    padding-left: 60px;
+    padding-left: 59px;
+    padding-right: 4px;
 }

@@ -2,10 +2,53 @@ mixin titleBlock(ClassTitle, ValueTitle)
     h1(class=ClassTitle)= ValueTitle
 
 mixin textBlock(ClassText, ValueText)
-    h1(class=ClassText)= ValueText
+    h1.default-title(class=ClassText)= ValueText
+
+
+//- ВЫШЕ УДАЛИТЬ
+
+
+mixin first-level-heading(FirstLevelHeading_Class, FirstLevelHeading_Value)
+    h1.default-first-level-heading(class=FirstLevelHeading_Class)= FirstLevelHeading_Value
+
+mixin second-level-heading(SecondLevelHeading_Class, SecondLevelHeading_Value)
+    h2.default-second-level-heading(class=SecondLevelHeading_Class)= SecondLevelHeading_Value
+
+mixin entire-text(EntireText_Class, EntireText_Value)
+    p.default-entire-text(class=EntireText_Class)= EntireText_Value
+
 
 mixin button(classButton, valueButton)
     button.main-button(class=classButton)= valueButton
 
 mixin formFill(typeInput, placeholderInput)
     input.main-form(type=typeInput, placeholder=placeholderInput)
+
+mixin datepicker-form(placeholderDatePicker, valueDatePicker)
+     input.datepicker-here.datepicker-test-two(type='text' placeholder=placeholderDatePicker)
+     span.datepicker__market= valueDatePicker
+
+
+mixin dropdown-form(DataIdFirst, DropDownValueFirst, DataIdSecond, DropDownValueSecond, DataIdThird, DropDownValueThird)
+    .iqdropdown
+        p.iqdropdown-selection
+        span.datepicker__market expand_more
+        .iqdropdown-menu
+            .iqdropdown-menu-option(data-id= DataIdFirst data-maxcount="5")
+                p.iqdropdown-item= DropDownValueFirst
+                p.iqdropdown-description
+            .iqdropdown-menu-option(data-id= DataIdSecond data-maxcount="5")
+                p.iqdropdown-item= DropDownValueSecond
+                p.iqdropdown-description
+            .iqdropdown-menu-option(data-id= DataIdThird data-maxcount="5")
+                p.iqdropdown-item= DropDownValueThird
+                p.iqdropdown-description
+            +button('f', 'тест')
+            +button('f', 'тест')
+
+
+
+mixin text-variations(ClassTitle, ValueTitle, ClassText, ValueText)
+    .block-container
+        h1(class=ClassTitle)= ValueTitle
+        h1(class=ClassText)= ValueText

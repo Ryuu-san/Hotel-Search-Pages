@@ -8,19 +8,24 @@
 .container-copyright {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    width: 72.5rem;
+    justify-content: space-between;
+    margin: 0 auto;
     align-items: center;
     margin-top: 0.5px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 23px;
 }
 
 .footer-navigation__copyright-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 17px;
-    /* Dark 75% */
-    color: rgba(31, 32, 65, 0.75);
+    color: #1f2041bf;
+}
+
+.footer-navigation__container-social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-navigation__image {
+    padding-left: 23px;
 }

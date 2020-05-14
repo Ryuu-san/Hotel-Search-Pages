@@ -1,0 +1,126 @@
+.block-container {
+    display: flex;
+    justify-content: space-between;
+    width: 403px;
+}
+
+.text-example_example-H1,
+.text-example_example-H2,
+.text-example_example-H3,
+.text-example_example-body {
+    width: 346px;
+}
+
+.text-example_example-H1,
+.text-example_example-H2,
+.text-example_example-H3,
+.text-example_example-body,
+.header-example_example-H1,
+.header-example_example-H2,
+.header-example_example-H3,
+.header-example_example-body {
+    margin: 20px 0;
+}
+
+.text-example_example-H1 {
+    height: 60px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+    color: #1F2041;
+}
+
+.text-example_example-H2 {
+    height: 48px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 24px;
+    color: #1F2041;
+}
+
+.text-example_example-H3 {
+    height: 15px;
+    font-family: Montserrat-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    line-height: 15px;
+    color: #1F2041;
+}
+
+.text-example_example-body {
+    width: 346px;
+    height: 48px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 23px;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f2041bf;
+}
+
+.headers_location-adjustment {
+    width: 37px;
+    height: 297px;
+}
+
+.header-example_example-H1 {
+    width: 29px;
+    height: 30px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #1f204140;
+}
+
+.header-example_example-H2 {
+    width: 27px;
+    height: 24px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    margin: 30px 0;
+    line-height: 23px;
+    text-align: right;
+    color: #1f204140;
+}
+
+.header-example_example-H3 {
+    width: 27px;
+    height: 15px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #1f204140;
+}
+
+.header-example_example-body {
+    width: 37px;
+    height: 24px;
+    margin: 43px -11px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #1f204140;
+}

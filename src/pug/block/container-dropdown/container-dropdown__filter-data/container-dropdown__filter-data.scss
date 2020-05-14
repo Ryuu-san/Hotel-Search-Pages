@@ -1,17 +1,16 @@
+.container-dropdown__container-form-dropdown {
+    position: relative;
+}
+
+.container-dropdown__filter-data .datepicker__market {
+    right: 4rem;
+    top: 4.445rem;
+}
+
 .container-dropdown__filter-data-header {
-    // position: absolute;
-    width: 160px;
+    width: 190px;
     height: 15px;
-    left: 340px;
-    top: 270px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-    text-transform: uppercase;
-    /* Dark 100% */
     color: #1F2041;
 }
 

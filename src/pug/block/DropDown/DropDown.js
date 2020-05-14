@@ -1,9 +1,9 @@
 $(document).ready(() => {
-    var testtestTwo = '';
-    var testtest = '';
-    var testCount = '';
-    var textTest = '';
-    var tets = '';
+    var CountFirst = '';
+    var CountSecond = '';
+    var CountThird = '';
+    var TextThird = '';
+    var TotalScore = '0';
     $('.iqdropdown').iqDropdown({
         // max total items
         maxItems: Infinity,
@@ -28,49 +28,50 @@ $(document).ready(() => {
             // } else if (totalItems == 1) {
             //     textPlural = 'гость'
             // }
-            // if (testCount >= 5 || testCount == 0) {
+            // if (CountThird >= 5 || CountThird == 0) {
             //     textPlural = 'младенцев'
-            // } else if (testCount > 1 && testCount < 5) {
+            // } else if (CountThird > 1 && CountThird < 5) {
             //     textPlural = 'младенца'
-            // } else if (testCount == 1) {
+            // } else if (CountThird == 1) {
             //     textPlural = 'младенец'
             // }
-            // document.querySelector('.iqdropdown-selection').innerHTML = totalItems + ' ' + textPlural + ', ' + testCount + ' ' + textPlural
+            // document.querySelector('.iqdropdown-selection').innerHTML = totalItems + ' ' + textPlural + ', ' + CountThird + ' ' + textPlural
         },
         calculation: (id, count, totalItems) => {
-            if (id == 'item1') {
-                testtestTwo = count
-                tets = testtest + testtestTwo
-            } else if (id == 'item2') {
-                testtest = count
-                tets = testtest + testtestTwo
-            } else if (id == 'item3') {
-                testCount = count
-                textTest = 'младенец'
+            if (id == 'first-item1') {
+                CountFirst = count
+                TotalScore = CountSecond + CountFirst
+            } else if (id == 'first-item2') {
+                CountSecond = count
+                TotalScore = CountSecond + CountFirst
+            } else if (id == 'first-item3') {
+                CountThird = count
+                TextThird = 'младенец'
             }
+
         },
         declensions: (id, count, totalItems) => {
-            if ((tets >= 5) || (tets == 0)) {
+            if ((TotalScore >= 5) || (TotalScore == 0)) {
                 textPlural = 'гостей'
-            } else if ((tets > 1) && (tets < 5)) {
+            } else if ((TotalScore > 1) && (TotalScore < 5)) {
                 textPlural = 'гостя'
-            } else if (tets == 1) {
+            } else if (TotalScore == 1) {
                 textPlural = 'гость'
             }
-            if ((testCount >= 5) || (testCount == 0)) {
-                textTest = 'младенцев'
-            } else if ((testCount > 1) && (testCount < 5)) {
-                textTest = 'младенца'
-            } else if (testCount == 1) {
-                textTest = 'младенец'
+            if ((CountThird >= 5) || (CountThird == 0)) {
+                TextThird = 'младенцев'
+            } else if ((CountThird > 1) && (CountThird < 5)) {
+                TextThird = 'младенца'
+            } else if (CountThird == 1) {
+                TextThird = 'младенец'
             }
-            if (tets == '') {
-                document.querySelector('.iqdropdown-selection').innerHTML = '0' + ' ' + 'гостей' + ', ' + testCount + ' ' + textTest
+            if (TotalScore == '') {
+                document.querySelector('.iqdropdown-selection').innerHTML = '0' + ' ' + 'гостей' + ', ' + CountThird + ' ' + TextThird
             } else {
-                document.querySelector('.iqdropdown-selection').innerHTML = tets + ' ' + textPlural + ', ' + testCount + ' ' + textTest
+                document.querySelector('.iqdropdown-selection').innerHTML = TotalScore + ' ' + textPlural + ', ' + CountThird + ' ' + TextThird
             }
-            if (testCount == '') {
-                document.querySelector('.iqdropdown-selection').innerHTML = tets + ' ' + textPlural
+            if (CountThird == '') {
+                document.querySelector('.iqdropdown-selection').innerHTML = TotalScore + ' ' + textPlural
             }
         },
         // return false to prevent an item decrement

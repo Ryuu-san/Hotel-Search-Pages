@@ -1,9 +1,11 @@
 .good-side-icon
     .good-side-icon__icon-text
-        img(src="/assets/img/insert_emoticon.png")
-        +textBlock('good-side-icon__header', 'Комфорт')
-        +textBlock('good-side-icon__text', 'Шумопоглощающие стены')
+        span.good-side-icon__icon insert_emoticon
+        .good-side-icon__container-text
+            +second-level-heading('good-side-icon__header', 'Комфорт')
+            +entire-text('good-side-icon__text', 'Шумопоглощающие стены')
     .good-side-icon__icon-text 
-        img(src="/assets/img/location_city.png")
-        +textBlock('good-side-icon__header', 'Удобство')
-        +textBlock('good-side-icon__text', 'Окно в каждой из спален')
+        span.good-side-icon__icon location_city
+        .good-side-icon__container-text
+            +second-level-heading('good-side-icon__header', 'Удобство')
+            +entire-text('good-side-icon__text', 'Окно в каждой из спален')

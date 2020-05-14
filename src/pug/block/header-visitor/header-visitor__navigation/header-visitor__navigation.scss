@@ -6,17 +6,38 @@
 
 .header-visitor__navigation-title {
     padding-left: 30px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 17px;
-    /* Dark 50% */
     color: #1f204180;
 }
 
+.header-visitor__navigation-title:nth-child(2) {
+    padding-left: 29px;
+}
+
+.header-visitor__navigation-title:nth-child(3) {
+    padding-left: 29px;
+    position: relative;
+}
+
+.header-visitor__navigation-title:nth-child(3) .datepicker__market {
+    top: 1px;
+    right: -23.5px;
+}
+
+.header-visitor__navigation-title:nth-child(4) {
+    padding-left: 43px;
+}
+
+.header-visitor__navigation-title:nth-child(5) {
+    padding-left: 29px;
+}
+
+.header-visitor__navigation-title:nth-child(6) {
+    padding-left: 29px;
+}
+
 .header-visitor__navigation-title_active {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;

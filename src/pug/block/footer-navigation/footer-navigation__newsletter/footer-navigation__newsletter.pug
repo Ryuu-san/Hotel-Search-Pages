@@ -1,4 +1,6 @@
 .footer-navigation__newsletter
-    +textBlock('footer-navigation__newsletter-title', 'Subscribe to our newsletter')
-    +textBlock('footer-navigation__newsletter-text', 'Receive our latest news and promotions in your inbox!')
-    +formFill('text', 'Your email address')
+    +second-level-heading('footer-navigation__newsletter-title', 'Subscribe to our newsletter')
+    +entire-text('footer-navigation__newsletter-text', 'Receive our latest news and promotions in your inbox!')
+    .footer-navigation__container-form
+        +formFill('text', 'Your email address')
+        span.email-marker arrow_forward

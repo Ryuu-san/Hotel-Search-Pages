@@ -1,13 +1,14 @@
 .container-buttons-and-more__buttons 
-    +textBlock('container-buttons-and-more__buttons-title', 'buttons')
+    +second-level-heading('container-buttons-and-more__buttons-title', 'buttons')
     .container-button
         .tetB
             +button('button_default','click me')
             +button('button_hover','click me')
         .tetB
-            +button('button_white_default','click me')
+            +button('button_white_default button-white-default_indent','click me')
             +button('button_white_hover','click me')
         .tetT
             +button('button_text_default','click me')
             +button('button_text_grey','click me')
-    +button('button-to-pay','Перейти к оплате')
+    .cont
+        +button('button-to-pay','Перейти к оплате')

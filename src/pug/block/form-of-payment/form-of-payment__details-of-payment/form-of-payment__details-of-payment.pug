@@ -1,7 +1,7 @@
 .room-details
     .form-of-payment__details-of-payment
         .form-of-payment__details-of-payment-text
-            +titleBlock('form-of-payment__details-of-payment-title', '№ 485')
-            +textBlock('form-of-payment__details-of-payment-text-title', 'люкс')
+            h1.form-of-payment__details-of-payment-title #[em(class ='form-of-payment__prefix') №] 888
+            +second-level-heading('form-of-payment__details-of-payment-text-title', 'люкс')
         .form-of-payment__details-of-payment-price
-            +textBlock('form-of-payment__details-of-payment-text-price', '9999р в сутки')
+            p.form-of-payment__details-of-payment-text-price #[em(class ='form-of-payment__price-digits') 9 990₽] в сутки

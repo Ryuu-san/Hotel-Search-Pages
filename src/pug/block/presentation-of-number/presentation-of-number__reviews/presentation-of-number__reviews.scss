@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 .9375rem;
-    width: 14.625rem;
+    width: 264px;
 }
 
 .rate-button {
@@ -12,16 +12,21 @@
     cursor: pointer;
 }
 
+.rate-button__star::after {
+    content: "star";
+    background: linear-gradient(180deg, #bc9cff, #8ba4f9);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 .presentation-of-number__comments {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
     line-height: 18px;
-    /* identical to box height, or 129% */
     text-align: right;
-    /* Dark 50% */
-    color: rgba(31, 32, 65, 0.5);
-    margin: 0;
-    line-height: 1.5rem;
+    padding-right: 3px;
+}
+
+.presentation-of-number__nubmer-comments {
+    color: rgba(31, 32, 65, .5);
+    font-weight: 700;
+    font-style: normal;
 }
