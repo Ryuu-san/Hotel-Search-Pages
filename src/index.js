@@ -23,7 +23,6 @@ import './pug/block/form-of-payment/form-of-payment__arrival-form/form-of-paymen
 import './pug/block/form-of-payment/form-of-payment__exit-form/form-of-payment__exit-form.scss'
 import './pug/block/form-of-payment/form-of-payment__payment-description/form-of-payment__payment-description.scss'
 import './pug/block/form-login/form-login.scss'
-import './pug/block/form-login/form-login__title/form-login__title.scss'
 import './pug/block/form-login/form-login__password_email/form-login__password_email.scss'
 import './pug/block/form-login/form-login__registration-form/form-login__registration-form.scss'
 import './pug/block/presentation-of-number/presentation-of-number.scss'

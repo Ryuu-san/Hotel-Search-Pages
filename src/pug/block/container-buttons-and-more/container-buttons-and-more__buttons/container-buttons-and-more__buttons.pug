@@ -1,14 +1,14 @@
 .container-buttons-and-more__buttons 
     +second-level-heading('container-buttons-and-more__buttons-title', 'buttons')
-    .container-button
-        .tetB
+    .container-button.container-button__container-buttons-and-more
+        .container-button__container.container-button__container_bottom
             +button('button_default','click me')
             +button('button_hover','click me')
-        .tetB
-            +button('button_white_default button-white-default_indent','click me')
-            +button('button_white_hover','click me')
-        .tetT
-            +button('button_text_default','click me')
-            +button('button_text_grey','click me')
-    .cont
-        +button('button-to-pay','Перейти к оплате')
+        .container-button__container.container-button__container_bottom
+            +button('button_white-default button-white-default_indent','click me')
+            +button('button_white-hover','click me')
+        .container-button__container.container-button__container_right
+            +button('button_text-default','click me')
+            +button('button_text-grey','click me')
+    .container-button-to-pay
+        +button('button-to-pay button-to-pay_top','Перейти к оплате')

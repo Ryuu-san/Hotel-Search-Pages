@@ -9,9 +9,10 @@
     position: relative;
 }
 
-.container-dropdown__subscription-field .email-marker {
-    right: 4rem;
-    top: 1.825rem;
+.container-dropdown__subscription-field .email-marker__container-dropdown {
+    position: absolute;
+    right: 3.999rem;
+    top: 1.865rem;
 }
 
 .container-dropdown__subscription-form {

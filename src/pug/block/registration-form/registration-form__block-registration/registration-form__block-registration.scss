@@ -9,11 +9,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    padding: 0 0 0 .9375rem;
     line-height: 18px;
-    /* identical to box height, or 129% */
-    /* Dark 25% */
     color: rgba(31, 32, 65, 0.25);
+}
+
+.main-form_padding {
+    padding: 0 0 0 .9375rem;
 }
 
 .registration-form__block-registration {

@@ -50,9 +50,8 @@
 
 body {
     background-color: #f4f4f6;
-    // font-family: Montserrat;
     display: block;
-    margin: 8px;
+    // margin: 8px;
 }
 
 h1,
@@ -66,30 +65,19 @@ p {
     margin: 30px 22px;
 }
 
-// ИКОНКИ
-//- span.qwe expand_more
-// .qwe {
-//     font-family: Material Icons;
-//     font-size: 50px;
-//     color: red;
-// }
-// h1 {
-//     font-family: Montserrat;
-// }
 .block-colorsType {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    // margin: 0 auto;
     max-width: 1440px;
 }
 
-.element-column:first-child {
+.element-column__colors-type:first-child {
     padding-left: 9.85%;
     padding-top: 2.3%;
 }
 
-.element-column:last-child {
+.element-column__colors-type:last-child {
     padding-right: 13.1%;
     padding-top: 0.95%;
 }
@@ -97,11 +85,10 @@ p {
 .block-Cards {
     display: flex;
     width: 95.3%;
-    padding: 0 112px;
 }
 
-.block-Cards__container {
-    padding: 0 1.25rem;
+.block-Cards__center {
+    padding: 0 112px;
 }
 
 .block-Cards__container_left {
@@ -129,7 +116,6 @@ p {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    // margin: 0 auto;
     max-width: 1440px;
     padding-top: 31.2px;
 }
@@ -139,7 +125,7 @@ p {
 }
 
 .form-elements:nth-child(3) {
-    padding-top: 172px;
+    padding-top: 152px;
 }
 
 .form-elements:nth-child(4) {

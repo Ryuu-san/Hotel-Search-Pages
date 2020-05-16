@@ -5,7 +5,7 @@
 }
 
 .footer-navigation__newsletter .main-form {
-    width: 255px;
+    width: 260px;
 }
 
 .footer-navigation__newsletter-title {
@@ -29,10 +29,13 @@
 }
 
 .email-marker {
-    position: absolute;
-    top: .625rem;
-    right: -1.5rem;
     background: linear-gradient(180deg, #bc9cff, #8ba4f9);
     color: transparent;
     -webkit-background-clip: text;
+}
+
+.email-marker__footer-navigation {
+    position: absolute;
+    top: .625rem;
+    right: -1.8rem;
 }

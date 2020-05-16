@@ -22,10 +22,10 @@ mixin button(classButton, valueButton)
     button.main-button(class=classButton)= valueButton
 
 mixin formFill(typeInput, placeholderInput)
-    input.main-form(type=typeInput, placeholder=placeholderInput)
+    input.main-form.main-form_padding(type=typeInput, placeholder=placeholderInput)
 
 mixin datepicker-form(placeholderDatePicker, valueDatePicker)
-     input.datepicker-here.datepicker-test-two(type='text' placeholder=placeholderDatePicker)
+     input.datepicker-here.datepicker-here__all(type='text' placeholder=placeholderDatePicker)
      span.datepicker__market= valueDatePicker
 
 
