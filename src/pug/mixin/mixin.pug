@@ -29,22 +29,41 @@ mixin datepicker-form(placeholderDatePicker, valueDatePicker)
      span.datepicker__market= valueDatePicker
 
 
-mixin dropdown-form(DataIdFirst, DropDownValueFirst, DataIdSecond, DropDownValueSecond, DataIdThird, DropDownValueThird)
-    .iqdropdown
-        p.iqdropdown-selection
+mixin dropdown-form(text ,dedAll, ded, testTwo, test, DataIdFirst, DropDownValueFirst, DataIdSecond, DropDownValueSecond, DataIdThird, DropDownValueThird)
+    .iqdropdown(class= testTwo id= dedAll)
+        p.iqdropdown-selection(class= test)= text
         span.datepicker__market expand_more
         .iqdropdown-menu
-            .iqdropdown-menu-option(data-id= DataIdFirst data-maxcount="5")
+            .iqdropdown-menu-option(data-id= DataIdFirst data-maxcount="5" class= ded)
                 p.iqdropdown-item= DropDownValueFirst
                 p.iqdropdown-description
+                .iqdropdown-item-controls
+                    button.button-decrement
+                        i.icon-decrement
+                    span.counter 0
+                    button.button-increment
+                        i.icon-decrement.icon-increment
             .iqdropdown-menu-option(data-id= DataIdSecond data-maxcount="5")
                 p.iqdropdown-item= DropDownValueSecond
                 p.iqdropdown-description
+                .iqdropdown-item-controls
+                    button.button-decrement
+                        i.icon-decrement
+                    span.counter 0
+                    button.button-increment
+                        i.icon-decrement.icon-increment
             .iqdropdown-menu-option(data-id= DataIdThird data-maxcount="5")
                 p.iqdropdown-item= DropDownValueThird
                 p.iqdropdown-description
-            +button('f', 'тест')
-            +button('f', 'тест')
+                .iqdropdown-item-controls
+                    button.button-decrement
+                        i.icon-decrement
+                    span.counter 0
+                    button.button-increment
+                        i.icon-decrement.icon-increment
+            .buttons-container
+                +button('clear button_text-grey', 'очистить')
+                +button('exit button_text-default', 'применить')
 
 
 

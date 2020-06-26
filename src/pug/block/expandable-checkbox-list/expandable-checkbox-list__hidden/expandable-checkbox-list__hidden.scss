@@ -4,12 +4,13 @@
 }
 
 .expandable-checkbox-list__hidden .datepicker__market {
-    top: -5px;
-    right: -35px;
+    top: 0px;
+    right: -36px;
 }
 
 .expandable-checkbox-list__hidden-header {
     width: 220px;
+    position: relative;
     height: 15px;
     cursor: pointer;
     line-height: 15px;
@@ -25,18 +26,21 @@
 }
 
 .container-amenities-list__item {
-    padding-bottom: 12px;
+    padding-bottom: 9px;
 }
 
-.container-amenities-list__item__checkbox-text {
+.container-amenities-list__item:nth-child(1) {
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+.container-amenities-list__item input[type=checkbox]+label {
     width: 175px;
     padding-left: 5px;
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 18px;
-    /* identical to box height, or 129% */
-    /* Dark 50% */
-    color: rgba(31, 32, 65, 0.5);
+    color: #1f204180;
 }

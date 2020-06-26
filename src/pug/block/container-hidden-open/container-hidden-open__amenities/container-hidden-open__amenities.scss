@@ -5,8 +5,17 @@
     color: #1F2041;
 }
 
+.iqdropdown-facilities {
+    background-color: #f8f8f8;
+}
+
 .container-hidden-open_bottom {
     padding-bottom: 20px;
+}
+
+.container-hidden-open-hidden .iqdropdown .iqdropdown-menu,
+.container-hidden-open-open .iqdropdown .iqdropdown-menu {
+    width: 265px;
 }
 
 .container-hidden-open-hidden {

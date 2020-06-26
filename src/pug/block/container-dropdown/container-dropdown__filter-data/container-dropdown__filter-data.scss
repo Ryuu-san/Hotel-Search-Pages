@@ -3,8 +3,8 @@
 }
 
 .container-dropdown__filter-data .datepicker__market {
-    right: 4rem;
-    top: 4.445rem;
+    right: 64px;
+    top: 71.12px;
 }
 
 .container-dropdown__filter-data-header {
@@ -16,4 +16,24 @@
 
 .datepicker-filter-fata {
     width: 266px;
+}
+
+.container-dropdown__filter-data .datepicker-here__all {
+    background-color: #f8f8f8;
+}
+
+.container-dropdown__filter-data .datepicker-here__all::-webkit-input-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__filter-data .datepicker-here__all::-moz-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__filter-data .datepicker-here__all:hover::-webkit-input-placeholder {
+    color: #1f2041f2;
+}
+
+.container-dropdown__filter-data .datepicker-here__all:hover::-moz-placeholder {
+    color: #1f2041f2;
 }

@@ -84,7 +84,9 @@ p {
 
 .block-Cards {
     display: flex;
-    width: 95.3%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90rem;
 }
 
 .block-Cards__center {
@@ -129,8 +131,8 @@ p {
 }
 
 .form-elements:nth-child(4) {
-    width: 83.2rem;
-    padding-top: 194px;
+    width: 90.2rem;
+    padding-top: 50px;
 }
 
 .form-elements:last-of-type .form-elements__container:last-child {
@@ -146,7 +148,7 @@ p {
 }
 
 .form-elements__container:last-child {
-    padding-right: 36px;
+    padding-right: 150px;
 }
 
 .form-elements .form-elements__container_left-dropdown {
@@ -169,7 +171,7 @@ p {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     color: #1F2041;
 }
@@ -179,7 +181,7 @@ p {
     font-style: normal;
     margin-top: 0.3px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-bottom: 5px;
     text-transform: uppercase;
     color: #1F2041;
@@ -189,7 +191,7 @@ p {
     font-family: Montserrat-Regular;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 18px;
     padding: 0px;
     margin: 0px;
@@ -214,8 +216,8 @@ span {
     font-feature-settings: "liga";
 }
 
-.iqdropdown .f {
-    background: red;
+.irs span {
+    font-family: none;
 }
 
 .datepicker__market {
@@ -223,4 +225,101 @@ span {
     top: 30px;
     right: 10px;
     color: #1f204180;
+}
+
+@media screen and(max-width: 1460px) {
+    .form-elements .form-elements__container_right-dropdown {
+        padding-left: 0;
+    }
+    @media screen and(max-width: 1350px) {
+        .form-elements__container:first-child {
+            padding-left: 0;
+        }
+    }
+    @media screen and(max-width: 1200px) {
+        html {
+            font-size: 14px;
+        }
+        .block-Cards {
+            flex-wrap: wrap;
+        }
+        .form-elements__container:last-child {
+            padding-right: 0;
+        }
+        .form-elements:nth-child(4) {
+            width: auto;
+        }
+    }
+    @media screen and(max-width: 1020px) {
+        div .footer-navigation__logo-text {
+            margin-left: 0;
+        }
+        div .container-footers__footer-navigation {
+            padding-right: 0;
+        }
+        .form-elements {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        .form-elements .form-elements__container_right-rich {
+            padding-left: 0;
+        }
+        div .user-comment__like {
+            left: -2.3125rem;
+        }
+    }
+    @media screen and(max-width: 950px) {
+        div .header-visitor__logo.mobile-logo,
+        .header-visitor__navigation .mobile-profile,
+        div .header-user__logo.mobile-logo,
+        .header-user__navigation .mobile-profile {
+            display: block;
+            width: auto;
+        }
+        .header-user__logo.mobile-logo {
+            margin: 0;
+        }
+        .header-visitor__logo.standard-logo,
+        .button-container__header-visitor,
+        .header-user__logo.standard-logo,
+        .user-profile {
+            display: none;
+        }
+        .container-headers {
+            width: 100%;
+        }
+    }
+    @media screen and(max-width: 900px) {
+        .block-colorsType {
+            max-width: 900px;
+        }
+        .element-column__colors-type:last-child {
+            padding-right: 0px;
+        }
+        .footer-navigation,
+        .footer-navigation__copyright {
+            display: none;
+        }
+    }
+    @media screen and(max-width: 700px) {
+        html {
+            font-size: 12px;
+        }
+        .block-colorsType {
+            max-width: 700px;
+            flex-direction: column;
+        }
+    }
+    @media screen and(max-width: 650px) {
+        .header-visitor__navigation-title,
+        .header-user__navigation-title {
+            display: none;
+        }
+        .header-visitor__navigation .mobile-menu,
+        .header-user__navigation .mobile-menu {
+            display: block;
+        }
+    }
 }

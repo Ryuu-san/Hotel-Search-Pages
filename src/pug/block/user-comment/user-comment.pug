@@ -2,8 +2,9 @@
     .user-comment__container
         .user-comment__like
             img(src="/assets/img/user-1.png")
-            .user-comment__button-like
-                input(type="checkbox" class="switch" checked)
+            .user-comment__button-like.container-like.container-checkbox-like__position
+                input(type="checkbox" class="like" name="l3" id="l3" checked)
+                label.container-like__count(for="l3") 12
         +second-level-heading('user-comment__name-user','Мурад Сарафанов')
         +entire-text('user-comment__activity','5 дней назад')
         +entire-text('user-comment__name-text','Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей.')

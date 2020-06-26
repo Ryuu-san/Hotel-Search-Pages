@@ -8,3 +8,23 @@
     line-height: 15px;
     color: #1F2041;
 }
+
+.container-dropdown__arrival-form .datepicker-here__all {
+    background-color: #f8f8f8;
+}
+
+.container-dropdown__arrival-form .datepicker-here__all::-webkit-input-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__arrival-form .datepicker-here__all::-moz-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__arrival-form .datepicker-here__all:hover::-webkit-input-placeholder {
+    color: #1f2041f2;
+}
+
+.container-dropdown__arrival-form .datepicker-here__all:hover::-moz-placeholder {
+    color: #1f2041f2;
+}

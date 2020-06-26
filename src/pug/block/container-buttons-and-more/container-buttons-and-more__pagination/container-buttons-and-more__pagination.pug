@@ -1,3 +1,11 @@
 .container-buttons-and-more__pagination
-    +textBlock('container-buttons-and-more__pagination-title', 'pagination')
-    p добавить сюда чет, хз что, но надо )0)) решишь кроч, а я пошел
+    +second-level-heading('container-buttons-and-more__pagination-title', 'pagination')
+    //- p добавить сюда чет, хз что, но надо )0)) решишь кроч, а я пошел
+    .container-pagination
+        +entire-text('container-pagination__elem container-pagination__active','1')
+        +entire-text('container-pagination__elem','2')
+        +entire-text('container-pagination__elem','3')
+        +entire-text('container-pagination__elem','...')
+        +entire-text('container-pagination__elem','15')
+        +entire-text('container-pagination__elem container-pagination__arrow','arrow_forward')
+    +entire-text('container-pagination__title','1 – 12 из 100+ вариантов аренды')

@@ -1,7 +1,7 @@
 .user-comment__container {
     box-sizing: border-box;
     position: relative;
-    padding-left: 3.75rem;
+    padding-left: 3.45rem;
     width: 100%;
 }
 
@@ -15,7 +15,15 @@
 .user-comment__button-like {
     position: absolute;
     top: 71px;
-    left: 1.5125rem;
+    left: 1.5625rem;
+}
+
+.user-comment__container input[type=checkbox]+label {
+    width: auto;
+    padding: 0px;
+    font-size: 10px;
+    font-family: Montserrat-Regular;
+    color: #BC9CFF;
 }
 
 .user-comment__name-user {

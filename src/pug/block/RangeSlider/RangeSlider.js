@@ -1,16 +1,16 @@
 $(document).ready(() => {
     $("#demo").ionRangeSlider({
         // min value
-        min: 10,
+        min: 0,
 
         // max value
-        max: 100,
+        max: 16000,
 
         // overwrite default FROM setting
-        from: 30,
+        from: 5000,
 
         // overwrite default TO setting
-        to: 80,
+        to: 10000,
 
         // Choose slider type, 
         // could be single - for one handle, or double four two handles
@@ -94,10 +94,10 @@ $(document).ready(() => {
         hide_from_to: false,
 
         // prefix value
-        prefix: "$",
+        prefix: "",
 
         // postfix value
-        postfix: " €",
+        postfix: " Р",
 
         // Special postfix, used only for maximum value
         max_postfix: "",
@@ -106,7 +106,7 @@ $(document).ready(() => {
         decorate_both: true,
 
         // Set your own separator for close values. 
-        values_separator: " — ",
+        values_separator: " - ",
 
         // disable slider
         disable: false,

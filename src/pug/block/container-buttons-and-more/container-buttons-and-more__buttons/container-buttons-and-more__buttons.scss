@@ -76,7 +76,7 @@
     font-family: Montserrat-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 15px;
     text-transform: uppercase;
 }
@@ -105,15 +105,15 @@
 
 .button-to-pay::after {
     position: absolute;
-    top: 2.365rem;
-    right: 7.725rem;
+    top: 37.84px;
+    right: 9.36px;
     width: auto;
     height: auto;
     font-family: Material-Icons;
     font-style: normal;
     font-weight: 400;
     text-transform: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 24px;
     text-align: center;
     color: #fff;

@@ -5,12 +5,20 @@
     color: #1F2041;
 }
 
+.container-form-text.container-form-text__container-form .container-form__default::-webkit-input-placeholder {
+    color: #1f204140;
+}
+
+.container-form-text.container-form-text__container-form .container-form__default::-moz-placeholder {
+    color: #1f204140;
+}
+
 .container-form__default {
     width: 320px;
     height: 44px;
     padding: 0 0 0 .9375rem;
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
+    background-color: #f8f8f8;
+    border: 1px solid #1f204140;
     box-sizing: border-box;
     border-radius: 4px;
     font-family: Montserrat-Regular;
@@ -19,11 +27,18 @@
     outline: none;
     font-size: 14px;
     line-height: 18px;
-    color: #1f2041bf;
 }
 
 .container-form__default:hover,
 .container-form__default:active {
     border: 1px solid #1f204180;
+    color: #1f2041f2;
+}
+
+.container-form-text.container-form-text__container-form .container-form__default:hover::-webkit-input-placeholder {
+    color: #1f2041f2;
+}
+
+.container-form-text.container-form-text__container-form .container-form__default:hover::-moz-placeholder {
     color: #1f2041f2;
 }

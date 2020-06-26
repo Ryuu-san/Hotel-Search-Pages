@@ -1,4 +1,9 @@
 .container-checkbox-buttons__like
     +second-level-heading('container-checkbox-buttons__like-title', 'like button')
-    input(type="checkbox" class="switch")
-    input(type="checkbox" class="switch" checked)
+    .container-checkbox-like.container-checkbox-like__position
+        .container-like
+                input(type="checkbox" class="like" name="l1" id="l1")
+                label.container-like__count(for="l1") 2
+        .container-like.container-checkbox-like__position
+                input(type="checkbox" class="like" name="l2" id="l2" checked)
+                label.container-like__count(for="l2") 12

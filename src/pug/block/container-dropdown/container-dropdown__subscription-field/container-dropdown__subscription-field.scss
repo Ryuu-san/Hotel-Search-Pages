@@ -9,10 +9,30 @@
     position: relative;
 }
 
+.container-dropdown__subscription-field .container-dropdown__subscription-form {
+    background-color: #f8f8f8;
+}
+
+.container-dropdown__subscription-field .container-dropdown__subscription-form::-webkit-input-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__subscription-field .container-dropdown__subscription-form::-moz-placeholder {
+    color: #1f204140;
+}
+
+.container-dropdown__subscription-field .container-dropdown__subscription-form:hover::-webkit-input-placeholder {
+    color: #1f2041f2;
+}
+
+.container-dropdown__subscription-field .container-dropdown__subscription-form:hover::-moz-placeholder {
+    color: #1f2041f2;
+}
+
 .container-dropdown__subscription-field .email-marker__container-dropdown {
     position: absolute;
-    right: 3.999rem;
-    top: 1.865rem;
+    right: 64px;
+    top: 29.84px;
 }
 
 .container-dropdown__subscription-form {

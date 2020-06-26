@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.header-user__logo.mobile-logo {
+    display: none;
+}
+
 .header-user__logo-title {
     font-family: Montserrat;
     font-style: normal;
